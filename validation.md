@@ -288,7 +288,6 @@ fragment NameAndAppearancesAndFriends on Character {
 }
 ```
 
-Earlier, it was noted that a query can only query for fields on the type in question; when we query for hero which returns a Character, we can only query for fields that exist on Character. What happens if we want to query for R2-D2s primary function, though?
 Ранее, было отмечено, что запрос может запрашивать поля того же типа, что и в запросе; когда мы запрашиваем **hero**, который возвращает **Character**, мы можем запрашивать только поля, которые существуют в **Character**. Что произойдет, если запросим основную функцию R2-D2?
 
 **Request**
